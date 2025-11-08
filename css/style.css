@@ -1,0 +1,189 @@
+body {
+    font: 12px Verdana, Arial, sans-serif;
+    color: #333;
+    background: #000 url(../img/bg/default_htb.jpg) repeat-x;
+}
+div#container {
+    background: #e7e7e7;
+    box-shadow: 0px 0 15px -4px rgba(255, 255, 255, 0.5), 0px 0 8px -4px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    margin: 0 auto;
+    width: 1280px;
+    position: relative;
+}
+h2 {
+    color: #A00;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #A00;
+    padding-bottom: 6px;
+    font-size: 15px;
+}
+a {
+    color: #2F9CC9;
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    border: 0;
+}
+audio::-webkit-media-controls-enclosure {
+    border-radius: 0;
+    background-color: white;
+    opacity: 80%;
+}
+div.credit_pics_wide, div.credit_pics_container,
+div.credit_pics_half, div.credit_pics_container,
+div.credit_pics_medium_container,
+div.narrator_grid,
+div#credit_pics_container,
+div.div_flex,
+.bucket_flex,
+div#videos, 
+div#mediums_pics {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+}
+div#medium_credits_container, .credit_pic_float i, div.pic_center_float, .credit_pic_float i {
+    color: #999;
+    font-size: 11px;
+}
+div.credit_pic_float_sidebyside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 266px;
+    margin: 0 18px 20px 20px !important;
+}
+div.credit_pic_float a.credit_pic_float {
+    float: left;
+    margin: 0 0 2px 0 !important;
+    display: block;
+    line-height: 15px;
+}
+div.credit_pic_float a.credit_pic_float:nth-child(2) {
+    margin-left: -2px !important;
+    float: right;
+}
+div.credit_pic_float img, a.credit_pic_float img, div#credit_pics_chargens div.credit_pic_float img {
+    width: 130px;
+    height: 148px;
+    margin-bottom: 3px;
+}
+a.credit_pic_float img {
+    display: block;
+}
+a.credit_pic_float img:hover {
+    border-color: #2F9CC9;
+}
+a.thin_img, 
+a.gray_border_img, 
+a.gray_border_img2, 
+a.credit_pic_float img, 
+a.newaddition_image, 
+a.franchise_image, 
+div.video_container a img {
+    border: 2px solid #CCC;
+}
+div.credit_pic_float, a.credit_pic_float {
+    text-align: center;
+}
+div.credit_pic_float a, a.credit_pic_float a {
+    display: block;
+    line-height: 15px;
+}
+div#medium_credits_container, .credit_pic_float, a.other_vas, div.pic_center_float, .credit_pic_float, a.other_vas {
+    font-size: 11px;
+    margin-top: 2px;
+}
+a.sidebyside_more_text {
+    line-height: 11px !important;
+}
+.orange {
+    color: #EA7F06;
+}
+div.confirmed_credit_has_sound_clip {
+    margin-top: 105px;
+}
+a.credit_pic_float a.play_sound_clip {
+    position: absolute;
+}
+a.credit_pic_float a.play_sound_clip img {
+    border-width: 0;
+}
+.play_sound_clip {
+    height: 17px;
+    background: #DDD url(https://www.behindthevoiceactors.com/_img/contest/icon_play.png) no-repeat center -1px !important;
+    display: block;
+    margin: -21px 0 2px 0;
+    position: absolute;
+    z-index: 10;
+    opacity: .80;
+    cursor: pointer;
+}
+.vc_comparison_container .play_sound_clip {
+    margin: 3px 0 0 0;
+    width: 270px;
+}
+div#medium_credits_container div.credit_pic_float a.play_sound_clip, a.credit_pic_float a.play_sound_clip , div.pic_center_float div.credit_pic_float a.play_sound_clip {
+    width: 134px;
+    margin: 135px 0 0 0;
+}
+div#credit_pics_voiceactors div.credit_pics_half, div#credit_pics_chargens div.credit_pics_half {
+    width: 47%;
+    margin: 0 13px;
+}
+div.parody {
+    width: 30px;
+    height: 30px;
+    background: url(https://www.behindthevoiceactors.com/_img/parody_icon2.png) no-repeat;
+    display: block;
+    float: left;
+    margin-left: 4px;
+    position: relative;
+    z-index: 11;
+}
+div.parody_less_dom {
+    position: absolute;
+    margin: 5px 0 0 5px;
+}
+.credit_type_page_charview {
+    margin-top: -150px;
+}
+div.credit_type_less_dom {
+    margin: 5px 0 0 100px;
+    position: absolute;
+}
+div.credit_type {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 6px;
+    margin-right: 6px\9;
+    margin-right: 0px\9;
+    margin-right: 6px\0;
+    position: relative;
+    z-index: 11;
+}
+div.ai {
+    width: 30px;
+    height: 30px;
+    background: url(../img/icon/AI_icon.png) no-repeat;
+    display: block;
+    float: left;
+    margin-left: 4px;
+    position: relative;
+    z-index: 11;
+}
+div.ai_less_dom {
+    position: absolute;
+    margin: 119px 0 0 100px;
+}
